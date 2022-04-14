@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aajnews"
+
+            android:menuCategory="secondary"
+            android:title="@string/aaj_tak_news" />
+
+        <item
+            android:id="@+id/indnews"
+
+            android:menuCategory="secondary"
+            android:title="@string/india_today_news" />
+
+    </group>
+    <item
+        android:menuCategory="secondary"
+        android:title="@string/international_news">
+        <menu>
+            <item
+                android:id="@+id/inews"
+                android:menuCategory="secondary"
+
+                android:title="@string/bbc_news" />
+
+
+        </menu>
+    </item>
+
+</menu>
+
+
+
+
+
+
+
